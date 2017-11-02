@@ -27,16 +27,18 @@ main button {
   background-color: #61005f;
   color: white; }
 
-table th {
-  background-color: white;
-  font-weight: lighter;
-  font-size: .5rem; }
-
-table tr:nth-child(odd) {
-  background-color: #deece1; }
-
-table tr:nth-child(even) {
-  background-color: #eff5f0; }
+table {
+  border-collapse: collapse; }
+  table th {
+    background-color: white;
+    font-weight: lighter;
+    font-size: .7rem; }
+  table tr:nth-child(odd) {
+    background-color: #deece1; }
+  table tr:nth-child(even) {
+    background-color: #eff5f0; }
+  table td {
+    padding: 1.5vh; }
 
 footer {
   background-color: #e7e8e9;

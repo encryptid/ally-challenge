@@ -22,14 +22,10 @@ window.addEventListener('load', function () {
     };
 
     getInfo();
-    // console.log(rates);
 
     function renderRates() {
-        console.log('running renderRates');
-        console.log(rates.length);
         let table = document.querySelector('table');
         for (let i = 0; i < rates.length; i++) {
-            console.log('for loop running!');
             let row = document.createElement('tr');
             let name = document.createElement('td');
             name.textContent = rates[i].name;
