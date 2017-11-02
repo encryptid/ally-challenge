@@ -13,8 +13,7 @@ header {
   display: flex;
   justify-content: space-around;
   background-color: #008ec5; }
-
-a {
-  color: white;
-  text-decoration: none;
-  margin: 1vw; }
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 1vw; }
