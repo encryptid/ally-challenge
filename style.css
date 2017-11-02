@@ -1,4 +1,20 @@
 body {
   background-color: white;
   color: black;
-  font-family: Verdana, Sans-serif; }
+  font-family: 'News Gothic', Sans-serif;
+  font-weight: lighter;
+  margin: 0;
+  padding: 0; }
+
+.hidden {
+  display: none; }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #008ec5; }
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 1vw; }
