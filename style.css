@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
 .hidden {
   display: none; }
 
@@ -15,5 +18,28 @@ header {
   background-color: #008ec5; }
   header a {
     color: white;
-    text-decoration: none;
     margin: 1vw; }
+
+main article section:last-child {
+  background-color: #bed9c4; }
+
+main button {
+  background-color: #61005f;
+  color: white; }
+
+table th {
+  background-color: white;
+  font-weight: lighter;
+  font-size: .5rem; }
+
+table tr:nth-child(odd) {
+  background-color: #deece1; }
+
+table tr:nth-child(even) {
+  background-color: #eff5f0; }
+
+footer {
+  background-color: #e7e8e9;
+  color: #468fc0; }
+  footer a {
+    color: #468fc0; }
