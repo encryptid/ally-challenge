@@ -2,9 +2,9 @@
 Build a mock banking site for Ally
 
 The principles, concepts, and philosophies of development that we value most and that you need to take into account in your submission are:
-- [ ] Web Standards
-- [ ] Semantic Markup
-- [ ] Performance
+- [x] Web Standards
+- [x] Semantic Markup
+- [x] Performance
 - [ ] Accessibility
 
 ### Technical Guidelines
@@ -22,5 +22,5 @@ To Do:
     - [x] Chrome
     - [x] Firefox
     - [ ] IE9+
-- [ ] Finish functionality
+- [x] Finish functionality
 - [ ] Check IE stability
