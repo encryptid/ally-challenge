@@ -11,19 +11,24 @@ body {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #008ec5;
   align-items: center; }
+  header img {
+    margin-left: 125px; }
   header nav {
-    display: flex; }
+    display: flex;
+    margin-right: 110px; }
     header nav a {
       text-decoration: none;
       color: white;
-      margin: 23px; }
+      margin: 23px;
+      font-size: 1.1rem; }
   header nav .selected {
     background-color: #246897;
     margin: 0;
-    padding: 23px; }
+    padding: 23px;
+    font-weight: bold; }
 
 main {
   display: flex;
@@ -75,37 +80,59 @@ main {
   main aside section nav a {
     display: inline-block;
     border: 1px solid lightgray;
-    background-color: whitesmoke;
+    background-color: #deece1;
     text-decoration: none;
     color: #0180c0;
     font-size: 1.3rem;
     text-align: center;
-    width: 85px; }
+    width: 85px;
+    padding: 5px 0 15px 2px; }
   main aside section nav a.select-tab {
     background-color: whitesmoke;
     color: black;
+    text-decoration: none;
     border: 1px solid lightgray;
     border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
     padding: 15px; }
   main aside section nav a:visited {
     color: #0180c0; }
+  main aside section nav a.select-tab:visited {
+    color: black; }
   main aside section article {
     padding: 0;
+    padding-top: 10px;
     background-color: whitesmoke;
-    margin: 0;
-    border-top: 1px solid lightgray; }
+    margin: -1px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid whitesmoke; }
+    main aside section article h4 {
+      color: #0180c0;
+      margin: 0;
+      font-size: 1.1rem;
+      padding-bottom: 10px; }
+      main aside section article h4 a {
+        text-decoration: none; }
+    main aside section article ul {
+      padding-bottom: 32px; }
+      main aside section article ul li {
+        list-style: none; }
 
 .rates {
   margin-left: 125px;
   margin-right: 125px;
-  width: 60.75%; }
+  margin-top: -60px;
+  width: 60.75%;
+  padding-bottom: 10vh; }
   .rates p {
     margin: 0;
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
     font-weight: 400;
     font-size: 2rem;
     line-height: 5rem;
     opacity: .6; }
+  .rates #tagline {
+    padding-top: 0; }
   .rates p span {
     font-weight: 100;
     padding: 10px;
@@ -141,7 +168,22 @@ main {
 
 footer {
   background-color: #e7e8e9;
-  color: #468fc0; }
+  color: #468fc0;
+  display: flex;
+  justify-content: space-between;
+  height: 125px; }
+  footer h1 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-left: 125px;
+    margin-top: 25px; }
+  footer nav {
+    margin-right: 100px;
+    margin-top: 25px; }
   footer a {
     color: #468fc0;
-    text-decoration: none; }
+    text-decoration: none;
+    margin: 2vw;
+    font-size: 1.1rem; }
+  footer a.selected {
+    font-weight: bold; }
