@@ -2,11 +2,15 @@ window.addEventListener('load', function () {
     console.log('js loaded');
 
     let rates = [];
-    let news = document.getElementById('news-tab');
-    let archive = document.getElementById('archive-tab');
-    let tabOne = document.getElementById('tab-one');
-    let tabTwo = document.getElementById('tab-two');
-    let btn = document.querySelector('button');
+    const news = document.getElementById('news-tab');
+    const archive = document.getElementById('archive-tab');
+    const tabOne = document.getElementById('tab-one');
+    const tabTwo = document.getElementById('tab-two');
+    const login = document.getElementById('login');
+    const logform = document.querySelector('.logform');
+    const logpop = document.getElementById('logpop');
+    const blind = document.querySelector('.blind');
+    const cross = document.getElementById('cross');
 
     function getInfo() {
         let request = new XMLHttpRequest();
@@ -59,8 +63,23 @@ window.addEventListener('load', function () {
         tabTwo.classList.add('hidden');
     });
 
-    btn.addEventListener('click', function() {
+    login.addEventListener('click', function() {
+        //body.classList.add('login');
+        logform.classList.remove('hidden');
+        blind.classList.remove('hidden');
         console.log('button clicked!');
-    })
+    });
+
+    cross.addEventListener('click', function() {
+        logform.classList.add('hidden');
+        blind.classList.add('hidden');
+    });
+
+    logpop.addEventListener('click', function() {
+        logform.classList.add('hidden');
+        blind.classList.add('hidden');
+        alert('Info submitted!');
+    });
+    
 
 });

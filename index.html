@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="blind hidden"></div>
     <header>
         <img src="img/urbank@2x.png" height="45px">
         <nav>
@@ -22,6 +23,13 @@
     </header>
 
     <main>
+        <form class="logform hidden">
+            <img id='cross' src="img/times@2x.png">
+            <h1>Sign Into Your Account</h1>
+            <div id="username"><label for="user">Username</label><input id="user" name="username" type="text"></div>
+            <div id="password"><label for="pass">Password</label><input id="pass" name="password" type="password"></div>
+            <button id="logpop">Login</button>
+        </form>
         <article>
             <section class="blurb">
                 <h1>Best Bank Ever!</h1>
@@ -49,7 +57,7 @@
             </section>
         </article>
         <aside>
-            <button>Login</button>
+            <button id="login">Login</button>
             <section>
                 <nav>
                     <a href="#" class="select-tab" id="news-tab">News</a

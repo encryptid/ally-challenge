@@ -9,6 +9,58 @@ body {
 .hidden {
   display: none; }
 
+.login {
+  filter: brightness(50%);
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.blind {
+  height: 255vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute; }
+
+.logform {
+  position: absolute;
+  background-color: white;
+  left: 285px;
+  top: 50px;
+  width: 500px;
+  height: 325px;
+  z-index: 10;
+  padding: 25px;
+  padding-bottom: 0;
+  filter: none;
+  opacity: 1;
+  box-shadow: 10px 10px 5px black, -10px -10px 5px black, -10px 10px 5px black, 10px -10px 5px black; }
+  .logform img {
+    float: right;
+    height: 17px; }
+  .logform h1 {
+    font-weight: lighter;
+    margin-bottom: 50px; }
+  .logform div {
+    display: block;
+    margin-bottom: 25px;
+    margin-top: 10px; }
+    .logform div label {
+      font-weight: 500;
+      margin-right: 25px; }
+    .logform div input {
+      width: 350px;
+      height: 35px;
+      border: 1.5px solid #0180c0; }
+  .logform #password label {
+    margin-right: 29px; }
+  .logform #logpop {
+    float: right;
+    margin-right: 45px;
+    background-color: #61005f;
+    color: white;
+    border: none;
+    font-size: 1.3rem;
+    width: 175px;
+    height: 45px; }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -34,7 +86,8 @@ main {
   display: flex;
   margin-left: 125px;
   margin-right: 125px;
-  margin-top: 65px; }
+  margin-top: 65px;
+  position: relative; }
   main article {
     margin-right: 60px; }
     main article section h1 {
