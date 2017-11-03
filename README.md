@@ -16,7 +16,7 @@ The principles, concepts, and philosophies of development that we value most and
 - [ ] Page should be responsive.
 - [ ] Bonus-points for accessibility!
 
-To Do:
+Unfinished:
 - [ ] Verify responsiveness and add a few media queries
 - [ ] Verify full functionality in:
     - [x] Chrome
@@ -24,3 +24,10 @@ To Do:
     - [ ] IE9+
 - [x] Finish functionality
 - [ ] Check IE stability
+
+
+## Final thoughts:
+* I would have liked to make several (mostly) cosmetic tweaks, such as create some hover interactions, or cause the page to respond to clicking different sections in the nav
+* I opted for a 'graceful degregation' approach, rather than mobile-first, thinking it was best to have a functional site that looked good in desktop if nothing else, and with whatever time I had, I would polish its responsiveness with media queries and a few other things. And while I'm disappointed I wasn't able to make it fully responsive, I'm glad I took that approach because ultimately I did end up running out of time.
+* While I used Chrome to create the page and I viewed it in Firefox to ensure it looked good, I was not able to view the page in IE9 due to time constraints. I simply did not have time to host it and boot up a Windows machine (since I do not have a Virtual Machine installed on my Mac), so the site is not tested in IE, which may be a problem since I used flexbox and some ES6.
+* All things considered, it was kind of a fun exercise and I'm glad I had the opportunity to tackle it, I just wish I had more time.
