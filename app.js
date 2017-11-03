@@ -2,6 +2,11 @@ window.addEventListener('load', function () {
     console.log('js loaded');
 
     let rates = [];
+    let news = document.getElementById('news-tab');
+    let archive = document.getElementById('archive-tab');
+    let tabOne = document.getElementById('tab-one');
+    let tabTwo = document.getElementById('tab-two');
+    let btn = document.querySelector('button');
 
     function getInfo() {
         let request = new XMLHttpRequest();
@@ -39,4 +44,23 @@ window.addEventListener('load', function () {
             table.appendChild(row);
         };
     };
+
+    archive.addEventListener('click', function() {
+        archive.classList.add('select-tab');
+        tabTwo.classList.remove('hidden');
+        news.classList.remove('select-tab');
+        tabOne.classList.add('hidden');
+    });
+
+    news.addEventListener('click', function() {
+        news.classList.add('select-tab');
+        tabOne.classList.remove('hidden');
+        archive.classList.remove('select-tab');
+        tabTwo.classList.add('hidden');
+    });
+
+    btn.addEventListener('click', function() {
+        console.log('button clicked!');
+    })
+
 });

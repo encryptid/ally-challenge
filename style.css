@@ -87,13 +87,21 @@ main {
     text-align: center;
     width: 85px;
     padding: 5px 0 15px 2px; }
-  main aside section nav a.select-tab {
+  main aside section nav a.select-tab#news-tab {
     background-color: whitesmoke;
     color: black;
     text-decoration: none;
     border: 1px solid lightgray;
     border-bottom: 1px solid whitesmoke;
     border-left: 1px solid whitesmoke;
+    padding: 15px; }
+  main aside section nav a.select-tab#archive-tab {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border: 1px solid lightgray;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid light-gray;
     padding: 15px; }
   main aside section nav a:visited {
     color: #0180c0; }
@@ -117,6 +125,37 @@ main {
       padding-bottom: 32px; }
       main aside section article ul li {
         list-style: none; }
+  main aside section article#tab-two {
+    padding: 0;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    margin: -1px;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid whitesmoke; }
+    main aside section article#tab-two h4:first-child {
+      color: #0180c0;
+      margin: 0;
+      font-size: 1.2rem;
+      padding-top: 25px;
+      padding-bottom: 20px;
+      padding-left: 25px; }
+      main aside section article#tab-two h4:first-child a {
+        text-decoration: none; }
+    main aside section article#tab-two h4 {
+      color: #0180c0;
+      margin: 0;
+      font-size: 1.2rem;
+      padding-top: 0;
+      padding-bottom: 20px;
+      padding-left: 25px; }
+    main aside section article#tab-two h4:last-child {
+      color: #0180c0;
+      margin: 0;
+      font-size: 1.2rem;
+      padding-top: 0;
+      padding-bottom: 35px;
+      padding-left: 25px;
+      margin-bottom: 102px; }
 
 .rates {
   margin-left: 125px;
