@@ -21,6 +21,6 @@ To Do:
 - [ ] Verify full functionality in:
     - [x] Chrome
     - [x] Firefox
-    - [x] IE9+
+    - [ ] IE9+
 - [ ] Finish functionality
 - [ ] Check IE stability
